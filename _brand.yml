@@ -1,0 +1,69 @@
+# TCDSB Research & Analytics Brand Definition
+#
+# Deploy to a project with: quarto use brand https://github.com/tcdsb/visual-identity
+# Docs: https://quarto.org/docs/authoring/brand.html
+
+meta:
+  name:
+    short: TCDSB R&A
+    full: Toronto Catholic District School Board — Research & Analytics
+
+logo:
+  images:
+    board: assets/tcdsb_logo_maroon.png
+    department: assets/r_a_logo.png
+  small: department
+  large: board
+
+color:
+  palette:
+    # Primary brand colors
+    maroon: "#951B1E"
+    maroon_dark: "#560F11"
+    maroon_medium: "#BA7D6B"
+
+    # Accent colors
+    blue_light: "#8EB8C2"
+    blue_bright: "#6BCAD4"
+    teal: "#016567"
+
+    # Supporting colors
+    tan_warm: "#FFE3A6"
+    green_sage: "#7DA387"
+    green_light: "#8ACA88"
+    gold_muted: "#9D976E"
+    purple_deep: "#2D0026"
+
+    # Utility / special use
+    maroon_deep: "#C84E51"
+    green_province: "#39B54A"
+
+    # Text
+    white: "#FFFFFF"
+    charcoal_black: "#151515"
+    grey: "#C2C2C4"
+
+  # Core UI tokens
+  background: white
+  foreground: charcoal_black
+
+  primary: maroon
+  secondary: maroon_dark
+  tertiary: grey
+
+  success: green_light
+  info: tan_warm
+  warning: gold_muted
+  danger: purple_deep
+
+  light: white
+  dark: charcoal_black
+
+typography:
+  fonts:
+    - family: Century Gothic
+      source: system
+  base:
+    family: Century Gothic
+  headings:
+    family: Century Gothic

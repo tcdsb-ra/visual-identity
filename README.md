@@ -1,13 +1,13 @@
-# Tcdsb-visual-identity Extension For Quarto
+# TCDSB Visual Identity — Brand Definition
 
-This extension sets the colours and fonts for Quarto documents to the TCDSB visual identity
+This repository defines the TCDSB Research & Analytics visual identity as a [`_brand.yml`](https://quarto.org/docs/authoring/brand.html) file for use with Quarto documents.
 
-## Installing
+## Using in a Project
 
-In an existing project
+Add the brand to any Quarto project with:
 
 ```bash
-quarto add tcdsb-ra/visual-identity
+quarto use brand tcdsb-ra/visual-identity
 ```
 
 or in R:
@@ -16,16 +16,9 @@ or in R:
 tcdsb::tcdsb_project_setup()
 ```
 
-This will install the extension under the `_extensions` subdirectory.
-If you're using version control, you will want to check in this directory.
+This copies `_brand.yml` and the `assets/` directory into your project root. Quarto will automatically apply the brand (colours, fonts, logos) to all supported output formats.
 
-New projects created with the template will automatically receive it. 
+## Contents
 
-## Using
-
-This extension installs a [brand.yml](https://posit-dev.github.io/brand-yml/) configuration for tcdsb.
-
-## Example
-
-Here is the source code for a minimal example: [example.qmd](example.qmd).
-
+- `_brand.yml` — Colour palette, semantic tokens, typography, and logo references
+- `assets/` — Logo files (PNG)
